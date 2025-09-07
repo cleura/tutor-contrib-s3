@@ -1,6 +1,6 @@
 {% if S3_PROFILE_IMAGE_BUCKET %}
 PROFILE_IMAGE_BACKEND = {
-    "class": DEFAULT_FILE_STORAGE,
+    "class": STORAGES['default']['BACKEND'],
     "options": {
         "bucket_name": "{{ S3_PROFILE_IMAGE_BUCKET }}",
         "location": PROFILE_IMAGE_BACKEND["options"]["location"].lstrip("/"),
