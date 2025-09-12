@@ -1,4 +1,4 @@
-## Unreleased
+## Version 2.4.0 (2025-09-12)
 
 * [Chore] Replace deprecated setting `DEFAULT_FILE_STORAGE` with `STORAGES['default']['BACKEND']`
 
