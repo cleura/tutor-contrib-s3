@@ -12,6 +12,8 @@ This plugin is meant to make Tutor-managed Open edX interface with S3
 S3-compatible storage platform *as part of Tutor,* please consider the
 [minio](https://github.com/overhangio/tutor-minio) Tutor plugin.
 
+This repository was previously hosted under the `hastexo` GitHub organization, and moved to `cleura` in December 2025 as part of a routine repository consolidation.
+
 Version compatibility matrix
 ----------------------------
 
@@ -41,7 +43,7 @@ appropriate one:
 Installation
 ------------
 
-    pip install git+https://github.com/hastexo/tutor-contrib-s3@v2.4.0
+    pip install git+https://github.com/cleura/tutor-contrib-s3@v2.4.0
 
 Then, to enable this plugin, run:
 

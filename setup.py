@@ -10,10 +10,10 @@ with io.open(os.path.join(here, "README.md"), "rt", encoding="utf8") as f:
 setup(
     name="tutor-contrib-s3",
     use_scm_version=True,
-    url="https://github.com/hastexo/tutor-contrib-s3/",
+    url="https://github.com/cleura/tutor-contrib-s3/",
     project_urls={
-        "Code": "https://github.com/hastexo/tutor-contrib-s3",
-        "Issue tracker": "https://github.com/hastexo/tutor-contrib-s3/issues",
+        "Code": "https://github.com/cleura/tutor-contrib-s3",
+        "Issue tracker": "https://github.com/cleura/tutor-contrib-s3/issues",
     },
     license="AGPLv3",
     author='hastexo',
