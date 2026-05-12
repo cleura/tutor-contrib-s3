@@ -1,2 +1,5 @@
-#!/bin/sh
-exec tox -e flake8
+#!/bin/sh -e
+
+git diff-index --check --cached HEAD --
+
+tox -e flake8
