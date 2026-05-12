@@ -8,3 +8,4 @@ __pycache__
 .tox/
 .eggs/
 tests/tutor-sandbox/
+.ai/

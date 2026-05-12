@@ -1,3 +1,9 @@
-#!/bin/sh
+#!/bin/sh -e
 
-exec tox -e gitlint -- --staged --msg-filename "$1" run-hook
+# If we're being invoked by an AI coding assistant, make sure the skills directory is populated.
+if [ -n "$OPENCODE" -o -n "$CLAUDECODE" ] && [ -n "`find .agents/skills  -maxdepth 0 -empty`" ]; then
+   echo '.agents/skills is empty. Run "git submodule update --init"' >&2
+   exit 1
+fi
+
+tox -e gitlint -- --staged --msg-filename "$1" run-hook
