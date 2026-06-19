@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+* [Chore] Use full repo path for skills submodule.
+
 ## Version 2.5.0 (2026-01-27)
 
 * [Enhancement] Support Tutor 21 and Open edX Ulmo.
