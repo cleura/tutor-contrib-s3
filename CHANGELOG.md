@@ -3,6 +3,7 @@
 ## Unreleased
 
 * [Chore] Use full repo path for skills submodule.
+* [Enhancement] Support Tutor 22 and Open edX Verawood.
 
 ## Version 2.5.0 (2026-01-27)
 
