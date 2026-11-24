@@ -1,12 +1,5 @@
 image: python
 
-py38:
-  image: python:3.8
-  stage: build
-  script:
-    - pip install tox
-    - tox -e gitlint,py38,flake8
-
 py39:
   image: python:3.9
   stage: build
@@ -27,3 +20,24 @@ py311:
   script:
     - pip install tox
     - tox -e gitlint,py311,flake8
+
+py312:
+  image: python:3.12
+  stage: build
+  script:
+    - pip install tox
+    - tox -e gitlint,py312,flake8
+
+py313:
+  image: python:3.13
+  stage: build
+  script:
+    - pip install tox
+    - tox -e gitlint,py313,flake8
+  
+py314:
+  image: python:3.14
+  stage: build
+  script:
+    - pip install tox
+    - tox -e gitlint,py314,flake8

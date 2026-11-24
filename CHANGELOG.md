@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+* [Testing] Add Python 3.13 and 3.14 to the test matrix.
+
 ## Version 2.6.0 (2026-09-11)
 
 * [Fix] Define the `STORAGE_CLASS` for `VIDEO_TRANSCRIPTS_SETTINGS`.
